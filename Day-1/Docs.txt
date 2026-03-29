@@ -1,0 +1,39 @@
+Day - 1) 
+1) Understanding Infrastructure as Code (IaC)
+2) Common IaC Tools
+Terraform − A tool for building, changing, and tracking infrastructure.
+•	Ansible − A tool for managing configurations and orchestration.
+•	CloudFormation − A special IaC tool for AWS to set up resources.
+3) Terraform Architecture and Components
+Terraform CLI
+Terraform Providers
+Resources
+State Files
+Modules
+Backend
+What are Provider Blocks?
+What are Resource Blocks?
+What are Output Blocks?
+What are the variables in Terraform?
+What is terraform.tfstate.?
+
+
+Day -2) Hands on
+What are the terraform Modules?
+How to make modules?
+What is terraform Registory
+
+Day - 3)
+Best practices for state management -
+Remote Backend - "his helps us with locking and versioning"
+State Locking − "This stops multiple actions at the same time"
+State Encryption - "makes sensitive data secure"
+Terraform State Commands :
+terraform state list
+terraform state show <resource>
+terraform state rm <resource> - "Remove the state, Will'nt destroy resource."
+What is DRY principle? - means Don't Repeat Yourself
+
+
+Day - 4)
+How to maintain terraform.state.tf. files in Remote Backend?
